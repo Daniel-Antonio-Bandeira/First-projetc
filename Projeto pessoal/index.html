@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu projeto pessoal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header id="cabecalho">
+
+        <ul class="lista">
+            <li><a href="#conteudo">About</a></li>
+            <li><a href="#projetos">Projetcs</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#contact">Leave a Message!</a></li>
+        </ul>
+
+    </header>
+
+    <section id="conteudo">
+        <img class="logo-conteudo" src="imagens/hexagon-2307350_640.png" alt="" height="260px" width="250px">
+        <h1 class="titulo-conteudo">Welcome to my website!!</h1>
+        <p class="paragrafo-conteudo">Hello! Welcome to my first website!
+            My name is Daniel Bandeira, and this is my first website, created to test my knowledge of HTML and CSS.</p>
+
+            <div id="icons">
+
+                <a class="instagram" href="https://www.instagram.com/daniel_antonio72/" target="_blank"><img src="imagens/instagram (1).png" height="35px"></a>
+
+                <a class="linkedin" href="https://www.linkedin.com/in/daniel-bandeira-b8ba03261/" target="_blank"><img src="imagens/linkedin.png" height="35px"></a>
+
+                <a class="github" href="#" target="_blank"><img src="imagens/github.png" height="35px"></a>
+
+                <a class="twitter" href="https://x.com/vlw_flw" target="_blank"><img src="imagens/twitter (1).png" height="35px"></a>
+            </div>
+
+    </section>
+
+    <section id="projetos"> <!--Começo dos projetos-->
+
+        <h2>Meus projetos</h2>
+
+        <div class="projeto-container">
+            <div class="projeto"> 
+                <img src="imagens/dev.svg" alt="">   
+                <h3>Projeto 1</h3>
+                <p>Descrição curta sobre o projeto</p>
+                <a href="#" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="projeto"> 
+                <img src="imagens/css3 (1).svg" alt="">
+                <h3>Projeto 2</h3>
+                <p>Descrição curta sobre o projeto</p>
+                <a href="#" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="projeto"> 
+                <img src="imagens/html5.svg" alt="">
+                <h3>Projeto 3</h3>
+                <p>Descrição curta sobre o projeto</p>
+                <a href="#" target="_blank">Ver no GitHub</a>
+            </div>
+        </div>
+
+    </section> <!--Fim dos projetos-->
+
+
+    <section id="contact">
+        <h2>Leave a Message</h2>
+        <form action="/submit-form" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
